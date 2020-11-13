@@ -1,0 +1,56 @@
+html,body{
+  background-color: #21232A;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+  font-family: Roboto Slab;
+
+
+}
+
+button {
+  padding: 1.2em 3.2em;
+  border-radius: 5px;
+  border: 2px solid;
+  background: #fefefe;
+  margin: 0 15px;
+  font-size: 15px;
+  font-weight: bolder;
+  transition: transform 90ms ease-out;
+  cursor: pointer;
+  &:active {
+    transform: translateY(2px);
+    transition: transform 120ms ease-out;
+  }
+  &:hover,
+  &:focus {
+    outline: none;
+  }
+}
+
+
+h1{
+  font-weight: bolder;
+  padding: 0;
+  margin: 0;
+  font-size: 80px;
+  line-height: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2 {
+  padding: 0;
+  font-weight: bolder;
+  margin: 0;
+  font-size: 75px;
+  line-height: 1;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
