@@ -13,9 +13,9 @@ const CounterApp = ({ value= 10 }) => {
       <div>
           <h1> CounterApp </h1>
           <h2> {counter}</h2>
-          <button id="#increment" onClick= { handleAddFunc }> + 1 </button>
-          <button id="#decrement" onClick= { handleAddResetFunc }> Reset </button>
           <button id="#reset" onClick= { handleAddBackFunc }> - 1 </button>
+          <button id="#decrement" onClick= { handleAddResetFunc }> Reset </button>
+          <button id="#increment" onClick= { handleAddFunc }> + 1 </button>
       </div>
   );
 }
